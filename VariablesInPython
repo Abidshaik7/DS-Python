@@ -1,0 +1,35 @@
+In Python, variables are fundamental components used to store and manipulate data. 
+
+1. What is a Variable?
+A variable is a symbolic name that is bound to a value. In Python, variables are used to hold data that can be manipulated throughout a program. They act as placeholders for data.
+
+2. Variable Assignment
+Variables are created and assigned values using the = operator.
+
+Examples:
+x = 10
+name = "Alice"
+pi = 3.14159
+Here, x, name, and pi are variables assigned the values 10, "Alice", and 3.14159, respectively.
+
+3. Naming Rules
+Python variable names must follow these rules:
+
+* Start with a letter or an underscore (_): Variable names cannot begin with a digit.
+* Followed by letters, digits, or underscores: Variable names can include letters (a-z, A-Z), digits (0-9), and underscores (_).
+* Case-sensitive: variable, Variable, and VARIABLE are considered different variables.
+* Cannot be a reserved keyword: Keywords like if, else, while, class, etc., cannot be used as variable names.
+Examples of valid variable names:
+
+user_age
+total_price
+is_active
+_user_name
+maxValue
+Examples of invalid variable names:
+
+
+2nd_variable      # Starts with a digit
+my-variable       # Contains a hyphen
+user name         # Contains a space
+total$amount      # Contains a special character ($)
