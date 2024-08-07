@@ -1,0 +1,43 @@
+
+KEYWORDS :
+In Python, keywords are reserved words that have special meaning and are used to define the syntax and structure of the language. They cannot be used as identifiers (e.g., variable names, function names). Here’s a list of Python keywords as of Python 3.12, along with a brief description of each:
+
+List of Python Keywords :
+
+False:  Represents the boolean value false.
+None:   Represents the absence of a value or a null value.
+True:   Represents the boolean value true.
+and:    Logical operator that returns True if both operands are true.
+as:     Used to create an alias when importing modules.
+assert: Used for debugging purposes to check if a condition is true.
+break:  Exits from the current loop.
+class:  Used to define a new class.
+continue: Skips the rest of the code inside the current loop iteration and proceeds to the next iteration.
+def: Used to define a function.
+del: Deletes objects or variables.
+elif: Used in conditional statements to specify additional conditions.
+else: Used in conditional statements and loops to execute code if no conditions are true.
+except: Used to catch exceptions in a try-except block.
+finally: Used to execute code after a try-except block, regardless of whether an exception was raised.
+for: Used to create a for loop.
+from: Used with import to import specific parts of a module.
+global: Declares a global variable inside a function.
+if: Used to make a conditional statement.
+import: Used to import modules.
+in: Tests membership in a sequence (e.g., lists, strings) or iterates over a sequence in loops.
+is: Tests for object identity.
+lambda: Creates an anonymous function (lambda function).
+nonlocal: Declares a variable in a nested function as non-local.
+not: Logical operator that returns True if the operand is false.
+or: Logical operator that returns True if at least one of the operands is true.
+pass: A null statement that does nothing, often used as a placeholder.
+raise: Raises an exception.
+return: Exits a function and optionally returns a value.
+try: Used to catch exceptions with except.
+while: Creates a while loop.
+with: Simplifies exception handling by encapsulating common preparation and cleanup tasks.
+yield: Used in a generator function to yield a value.
+
+* Avoid using keywords as variable names: Since keywords have special meanings, using them for identifiers will lead to syntax errors.
+* Use keywords to understand control flow: Keywords like if, else, for, and while are fundamental to controlling the flow of execution in Python programs.
+* Keywords are integral to writing Python code, and understanding their roles helps in mastering the language.
